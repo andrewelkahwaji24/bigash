@@ -1,5 +1,137 @@
-<section id="quizz">
-    <h2>III. Quizz sur Alan Turing</h2>
-    <p>Testez vos connaissances sur Alan Turing avec ce quizz !</p>
-    <p>Le quizz contiendra des questions sur les faits et événements mentionnés dans les sections précédentes.</p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur Alan Turing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Alan Turing</a>
+        <nav class="navbar">
+            <a href="biographie.html">Biographie</a>
+            <a href="oeuvres.html">Œuvres</a>
+            <a href="quiz.html" class="active">Quiz</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="quiz-instructions">
+            <h2>Instructions pour le Quiz</h2>
+            <p>Ce quiz vise à évaluer vos connaissances sur Alan Turing, sa vie, ses contributions, et son héritage. Lisez attentivement chaque question et sélectionnez la bonne réponse parmi les options proposées.</p>
+        </section>
+
+        <section class="quiz-container">
+            <h2>Quiz sur Alan Turing</h2>
+
+            <div class="quiz-question">
+                <p>1. Quel était son métier ?</p>
+                <label><input type="radio" name="question1" value="1"> Mathématicien</label>
+                <label><input type="radio" name="question1" value="2"> Scientifique</label>
+                <label><input type="radio" name="question1" value="3"> Écrivain</label>
+                <label><input type="radio" name="question1" value="4"> Poète</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>2. Qu’a-t-il fait ?</p>
+                <label><input type="radio" name="question2" value="1"> Rien</label>
+                <label><input type="radio" name="question2" value="2"> Il a écrit un poème à succès</label>
+                <label><input type="radio" name="question2" value="3"> Il a réussi à déchiffrer Enigma</label>
+                <label><input type="radio" name="question2" value="4"> Il a écrit un roman à succès</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>3. Pourquoi dit-on qu’il a eu un destin tragique ?</p>
+                <label><input type="radio" name="question3" value="1"> Il était homosexuel</label>
+                <label><input type="radio" name="question3" value="2"> Il a donné des informations aux Britanniques</label>
+                <label><input type="radio" name="question3" value="3"> Il était seul</label>
+                <label><input type="radio" name="question3" value="4"> Il n’a pas eu de destin tragique</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>4. Qu’est ce que Enigma ?</p>
+                <label><input type="radio" name="question4" value="1"> Un jeu avec des énigmes</label>
+                <label><input type="radio" name="question4" value="2"> Machine électromécanique portative servant au chiffrement et au déchiffrement de l’information</label>
+                <label><input type="radio" name="question4" value="3"> Un roman</label>
+                <label><input type="radio" name="question4" value="4"> Un ordinateur</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>5. Combien de personnes a-t-il pu sauver ?</p>
+                <label><input type="radio" name="question5" value="1"> 8 millions de personnes</label>
+                <label><input type="radio" name="question5" value="2"> 16 millions de personnes</label>
+                <label><input type="radio" name="question5" value="3"> 9 millions de personnes</label>
+                <label><input type="radio" name="question5" value="4"> 14 millions de personnes</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>6. De combien de temps cette guerre a-t-elle pu être raccourcie grâce à Alan Turing ?</p>
+                <label><input type="radio" name="question6" value="1"> 2 ans</label>
+                <label><input type="radio" name="question6" value="2"> 3 ans</label>
+                <label><input type="radio" name="question6" value="3"> 5 ans</label>
+                <label><input type="radio" name="question6" value="4"> 1 an</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>7. L’homosexualité étant encore punie, Alan Turing dut faire un choix. Lequel ?</p>
+                <label><input type="radio" name="question7" value="1"> Être viré ou aller en prison</label>
+                <label><input type="radio" name="question7" value="2"> La castration chimique ou une amende</label>
+                <label><input type="radio" name="question7" value="3"> La prison ou une castration chimique</label>
+                <label><input type="radio" name="question7" value="4"> Il n’eut pas le choix</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>8. Il choisit la castration chimique qui ruina sa santé. Il finit par se suicider en mangeant une pomme empoisonnée au cyanure. En quelle année ?</p>
+                <label><input type="radio" name="question8" value="1"> 1954</label>
+                <label><input type="radio" name="question8" value="2"> 1947</label>
+                <label><input type="radio" name="question8" value="3"> 1946</label>
+                <label><input type="radio" name="question8" value="4"> 1949</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>9. En quelle année Elizabeth II donna-t-elle son pardon à Alan Turing ?</p>
+                <label><input type="radio" name="question9" value="1"> 2015</label>
+                <label><input type="radio" name="question9" value="2"> 2013</label>
+                <label><input type="radio" name="question9" value="3"> 2008</label>
+                <label><input type="radio" name="question9" value="4"> 2019</label>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Informations</h3>
+                <p>Bienvenue sur le site d'Alan Turing</p>
+            </div>
+            <div class="footer-column">
+                <h3>Suivez-moi</h3>
+                <div class="social-icons">
+                    <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="biographie.html">Biographie</a></li>
+                    <li><a href="oeuvres.html">Œuvres</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Infos sur le Développeur</h3>
+                <p>Développé par un étudiant L2 Miash</p>
+                <p>Contact : <a href="mailto:"></a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Alan Turing. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
