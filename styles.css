@@ -95,3 +95,22 @@ body{
     font-size: 1rem;
     text-decoration: none;
 }
+
+.text-hero .button1:hover{
+    background-color: transparent;
+    color: #33D4D4;
+    border-color: #33D4D4;
+    cursor: pointer;
+}
+
+.container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 45%;
+    max-width: 100%;
+    height: auto;
+    border-radius: auto;
+}
