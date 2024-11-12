@@ -324,3 +324,64 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+.oeuvres-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.oeuvres-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0b6db3;
+    margin-bottom: 30px;
+}
+
+.oeuvres-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.oeuvres-category {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.oeuvres-category h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0b6db3;
+    padding-bottom: 5px;
+}
+
+.oeuvre-item {
+    margin-bottom: 20px;
+}
+
+.oeuvre-item h4 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.oeuvre-item h4 a {
+    color: #0b6db3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.oeuvre-item h4 a:hover {
+    color: #33d4d4;
+}
+
+.oeuvre-item p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0 10px;
+}
