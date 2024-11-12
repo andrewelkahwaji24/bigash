@@ -69,4 +69,29 @@ body{
 
 .text-hero h1{
     font-size: 2rem;
+    color: antiquewhite;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
+
+.text-hero p , .text-hero li {
+    font-size: 2rem;
+    color: beige;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.text-hero .button1 {
+    padding: 12px 30px;
+    background-color: blue;
+    color: #33D4D4;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    text-decoration: none;
 }
