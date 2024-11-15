@@ -27,7 +27,7 @@
 
             <div class="quiz-question">
                 <p>1. Quel était son métier ?</p>
-                <label><input type="radio" name="question1" value="1"> Mathématicien</label>
+                <label><input type="radio" name="question1" value="1" data-correct="true"> Mathématicien</label>
                 <label><input type="radio" name="question1" value="2"> Scientifique</label>
                 <label><input type="radio" name="question1" value="3"> Écrivain</label>
                 <label><input type="radio" name="question1" value="4"> Poète</label>
@@ -37,13 +37,13 @@
                 <p>2. Qu’a-t-il fait ?</p>
                 <label><input type="radio" name="question2" value="1"> Rien</label>
                 <label><input type="radio" name="question2" value="2"> Il a écrit un poème à succès</label>
-                <label><input type="radio" name="question2" value="3"> Il a réussi à déchiffrer Enigma</label>
+                <label><input type="radio" name="question2" value="3" data-correct="true"> Il a réussi à déchiffrer Enigma</label>
                 <label><input type="radio" name="question2" value="4"> Il a écrit un roman à succès</label>
             </div>
 
             <div class="quiz-question">
                 <p>3. Pourquoi dit-on qu’il a eu un destin tragique ?</p>
-                <label><input type="radio" name="question3" value="1"> Il était homosexuel</label>
+                <label><input type="radio" name="question3" value="1" data-correct="true"> Il était homosexuel</label>
                 <label><input type="radio" name="question3" value="2"> Il a donné des informations aux Britanniques</label>
                 <label><input type="radio" name="question3" value="3"> Il était seul</label>
                 <label><input type="radio" name="question3" value="4"> Il n’a pas eu de destin tragique</label>
@@ -52,14 +52,14 @@
             <div class="quiz-question">
                 <p>4. Qu’est ce que Enigma ?</p>
                 <label><input type="radio" name="question4" value="1"> Un jeu avec des énigmes</label>
-                <label><input type="radio" name="question4" value="2"> Machine électromécanique portative servant au chiffrement et au déchiffrement de l’information</label>
+                <label><input type="radio" name="question4" value="2" data-correct="true"> Machine électromécanique portative servant au chiffrement et au déchiffrement de l’information</label>
                 <label><input type="radio" name="question4" value="3"> Un roman</label>
                 <label><input type="radio" name="question4" value="4"> Un ordinateur</label>
             </div>
 
             <div class="quiz-question">
                 <p>5. Combien de personnes a-t-il pu sauver ?</p>
-                <label><input type="radio" name="question5" value="1"> 8 millions de personnes</label>
+                <label><input type="radio" name="question5" value="1" data-correct="true"> 8 millions de personnes</label>
                 <label><input type="radio" name="question5" value="2"> 16 millions de personnes</label>
                 <label><input type="radio" name="question5" value="3"> 9 millions de personnes</label>
                 <label><input type="radio" name="question5" value="4"> 14 millions de personnes</label>
@@ -68,7 +68,7 @@
             <div class="quiz-question">
                 <p>6. De combien de temps cette guerre a-t-elle pu être raccourcie grâce à Alan Turing ?</p>
                 <label><input type="radio" name="question6" value="1"> 2 ans</label>
-                <label><input type="radio" name="question6" value="2"> 3 ans</label>
+                <label><input type="radio" name="question6" value="2" data-correct="true"> 3 ans</label>
                 <label><input type="radio" name="question6" value="3"> 5 ans</label>
                 <label><input type="radio" name="question6" value="4"> 1 an</label>
             </div>
@@ -77,13 +77,13 @@
                 <p>7. L’homosexualité étant encore punie, Alan Turing dut faire un choix. Lequel ?</p>
                 <label><input type="radio" name="question7" value="1"> Être viré ou aller en prison</label>
                 <label><input type="radio" name="question7" value="2"> La castration chimique ou une amende</label>
-                <label><input type="radio" name="question7" value="3"> La prison ou une castration chimique</label>
+                <label><input type="radio" name="question7" value="3" data-correct="true"> La prison ou une castration chimique</label>
                 <label><input type="radio" name="question7" value="4"> Il n’eut pas le choix</label>
             </div>
 
             <div class="quiz-question">
                 <p>8. Il choisit la castration chimique qui ruina sa santé. Il finit par se suicider en mangeant une pomme empoisonnée au cyanure. En quelle année ?</p>
-                <label><input type="radio" name="question8" value="1"> 1954</label>
+                <label><input type="radio" name="question8" value="1" data-correct="true"> 1954</label>
                 <label><input type="radio" name="question8" value="2"> 1947</label>
                 <label><input type="radio" name="question8" value="3"> 1946</label>
                 <label><input type="radio" name="question8" value="4"> 1949</label>
@@ -93,9 +93,12 @@
                 <p>9. En quelle année Elizabeth II donna-t-elle son pardon à Alan Turing ?</p>
                 <label><input type="radio" name="question9" value="1"> 2015</label>
                 <label><input type="radio" name="question9" value="2"> 2013</label>
-                <label><input type="radio" name="question9" value="3"> 2008</label>
+                <label><input type="radio" name="question9" value="3" data-correct="true"> 2008</label>
                 <label><input type="radio" name="question9" value="4"> 2019</label>
             </div>
+
+            <!-- Button to submit the quiz -->
+            <button id="submit-quiz">Soumettre le quiz</button>
         </section>
     </main>
 
@@ -130,8 +133,10 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Alan Turing. Tous droits réservés.</p>
+            <p>&copy; 2024 Alan Turing Website. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
